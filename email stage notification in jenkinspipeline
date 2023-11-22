@@ -1,0 +1,11 @@
+post {
+    always {
+        mail bcc: '',  
+             body: "Project: ${env.JOB_NAME},Build Number: ${env.BUILD_NUMBER},Build url: ${env.BUILD_URL}",  
+             cc: 'lekhyalekhya16@gmail.com', 
+             from: '', 
+             replyTo: '',  
+             subject: '${current build}', 
+             to: 'chinniprashanth001@gmail.com'  
+    }
+}
