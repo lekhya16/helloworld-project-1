@@ -1,3 +1,9 @@
+instance-ec2-connect jenkins-managejenkins-plugins-available plugins-search emailextension
+first install email extension plugin in jenkins then click restart checkbox
+
+
+
+
 post {
     always {
         mail bcc: '',  
